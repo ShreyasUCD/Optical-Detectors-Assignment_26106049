@@ -14,24 +14,27 @@ The notebooks use relative file paths, so I have adjusted the input folders acco
 
 ### input-data structure
 The notebooks assume that the provided data will be accessible locally.
-project-folder/</br>
-├── README.md </br>
-├── hst-assignment.ipynb</br>
-├── sentinel-assignment.ipynb</br>
-├── hst-calibration/</br>
-│   ├── ubai2505m/</br>
-│   ├── ubai2507m/</br>
-│   └── ubai2508m/</br>
-├── hst-processed/</br>
-│   ├── ubai2505m_c0m_aligned.fits</br>
-│   ├── ubai2507m_c0m_aligned.fits</br>
-│   └── ubai2508m_c0m_aligned.fits</br>
-└── sentinel-processed/</br>
-    ├── White_light/</br>
-    │   └── Google Earth JPG images</br>
-    ├── S2_2017-.../</br>
-    ├── S2_2018-.../</br>
-    └── S2_2019-.../</br>
+```text
+project-folder/
+├── README.md
+├── hst-assignment.ipynb
+├── sentinel-assignment.ipynb
+├── hst-calibration/
+│   ├── ubai2505m/
+│   ├── ubai2507m/
+│   └── ubai2508m/
+├── hst-processed/
+│   ├── ubai2505m_c0m_aligned.fits
+│   ├── ubai2507m_c0m_aligned.fits
+│   └── ubai2508m_c0m_aligned.fits
+└── sentinel-processed/
+    ├── White_light/
+    │   └── Google Earth JPG images
+    ├── S2_2017-.../
+    ├── S2_2018-.../
+    └── S2_2019-.../
+```
+
 
 ### Software requirements
 The notebooks use Python and the following main packages:
